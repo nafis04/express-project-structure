@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon src/app.ts",
     "build": "npx tsc",
-    "start": "node build/app.js"
+    "start": "node build/app.js",
+    "prepare": "husky",
+    "test": "ts-node src/test.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^22.14.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
