@@ -8,7 +8,7 @@
     "build": "npx tsc",
     "start": "node build/app.js",
     "prepare": "husky",
-    "test": "ts-node src/test.ts"
+    "test": "node src/test.js"
   },
   "keywords": [],
   "author": "",
